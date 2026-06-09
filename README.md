@@ -1,5 +1,4 @@
 # Socio-Demographic Prediction Model 
-"# socio-demographic-prediction-model" 
 ## Data Acknowledgment
 This project leverages the pre-engineered, high-dimensional anonymized mobile feature matrices made available by the replication framework for:
 
