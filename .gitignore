@@ -1,0 +1,35 @@
+# Ignore the large data matrices to keep Git fast
+data/phone_features.csv
+data/survey.csv
+
+# Ignore compiled model binaries
+models/*.pkl
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/phone_features.csv
+data/survey.csv
+
+# Models
+models/*.pkl
