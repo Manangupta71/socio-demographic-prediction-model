@@ -1,55 +1,54 @@
 import os
-import bandicoot as bc
 import pandas as pd
+import numpy as np
 
-def run_raw_feature_pipeline(raw_folder_path):
+def run_feature_alignment_pipeline(features_path=None):
     """
-    Ingests raw CDR files using bandicoot and compiles them 
-    into the high-dimensional feature schema found in phone_features.csv.
+    Production-ready data pipeline. It ingests the high-dimensional behavioral 
+    matrix, isolates identifiers, and sanitizes features by computing column-wise 
+    means to handle missing statistical values out of the box.
     """
-    print(f"[INFO] Initializing bandicoot feature extraction engine on: '{raw_folder_path}'")
+    print("[PIPELINE] Initializing data ingestion wrapper...")
     
-    if not os.path.exists(raw_folder_path):
-        raise FileNotFoundError(f"Directory '{raw_folder_path}' does not exist.")
+    if features_path is None:
+        features_path = os.path.join('raw_data', 'phone_features.csv')
         
-    extracted_records = []
-    phone_identifiers = []
+    if not os.path.exists(features_path):
+        raise FileNotFoundError(
+            f"Data entry checkpoint failed. Could not locate: '{features_path}'. "
+            "Please ensure phone_features.csv is placed inside your 'raw_data/' folder."
+        )
+        
+    # Read the data matrix containing 800+ bandicoot behavioral attributes
+    feature_matrix = pd.read_csv(features_path)
     
-    # 1. Loop through each user's raw phone log file
-    for file_name in os.listdir(raw_folder_path):
-        if file_name.endswith('.csv'):
-            # The filename matches the unique phone identifier
-            phone_no = file_name.replace('.csv', '')
-            phone_identifiers.append(phone_no)
-            
-            # 2. Ingest transactional logs into a structured bandicoot container
-            user_cdrs = bc.load(phone_no, raw_folder_path, recompute_virtual_records=True)
-            
-            # 3. Compute the full extended suite of behavior metrics
-            # This handles the complex calculations for temporal patterns, day/night ratios,
-            # contact entropy, and call duration distributions.
-            metrics = bc.utils.all(user_cdrs, summary='extended')
-            extracted_records.append(metrics)
-            
-    # 4. Flatten the dictionary metrics into a standardized machine learning matrix (X)
-    feature_matrix = pd.DataFrame(extracted_records)
+    # Extract unique subscriber phone keys
+    phone_identifiers = feature_matrix['phone_number']
     
-    # Insert the phone identifier column right at the front of the array
-    feature_matrix.insert(0, 'phone_number', phone_identifiers)
+    # Isolate structural predictors (X)
+    X_raw = feature_matrix.drop(columns=['phone_number'], errors='ignore')
     
-    print("\n" + "="*60)
-    print(f"[SUCCESS] Feature extraction pipeline complete.")
-    print(f" -> Unique profiles engineered: {feature_matrix.shape[0]}")
-    print(f" -> Metrics compiled per user : {feature_matrix.shape[1] - 1}")
-    print("="*60 + "\n")
+    # Handle numeric columns containing NaN values (e.g., skewness/kurtosis on low interaction counts)
+    # Replaces missing entries dynamically with the statistical mean of that specific behavioral metric
+    print("[PIPELINE] Engineering data sanity checks and mean imputation...")
+    X_clean = X_raw.fillna(X_raw.mean())
     
-    return feature_matrix
+    # Final check: If a column is completely empty, fall back to filling with 0
+    X_clean = X_clean.fillna(0)
+    
+    print("=" * 60)
+    print("[SUCCESS] Pipeline Feature Matrix Extraction Complete")
+    print(f"  * Total Active Profiles Processed : {X_clean.shape[0]}")
+    print(f"  * Engineered Attributes Extracted : {X_clean.shape[1]}")
+    print("=" * 60 + "\n")
+    
+    return phone_identifiers, X_clean
 
 if __name__ == '__main__':
-    # Production directory pointing to raw logs
-    RAW_DATA_DIR = os.path.join('raw_data', 'sample_user_logs')
-    
-    # If the mock directory doesn't exist yet, we create it
-    os.makedirs(RAW_DATA_DIR, exist_ok=True)
-    
-    print(f"[INFO] Gateway ready. Place your raw CDR log files inside '{RAW_DATA_DIR}'")
+    # Test execution rule to verify pipeline compilation independently
+    try:
+        ids, features = run_feature_alignment_pipeline()
+        print("Verification Matrix Sample (First 5 users, first 3 features):")
+        print(features.iloc[:5, :3])
+    except Exception as e:
+        print(f"[ERROR] Pipeline execution failed: {e}")
