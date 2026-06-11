@@ -2,92 +2,70 @@ import os
 import pandas as pd
 import numpy as np
 
-# Try to import bandicoot smoothly. If it's not installed on the system yet, 
-# the pipeline will still run safely using fallback development modes.
-try:
-    import bandicoot as bc
-    BANDICOOT_AVAILABLE = True
-except ImportError:
-    BANDICOOT_AVAILABLE = False
-
-def run_feature_alignment_pipeline(raw_logs_dir=None, fallback_csv_path=None):
+def run_feature_alignment_pipeline():
     """
-    A true plug-and-play production pipeline gateway. 
-    1. If a directory of raw text/call logs is provided, it parses them with bandicoot.
-    2. If no raw folder is found, it automatically switches to the pre-computed matrix.
+    Ingests high-dimensional synthetic Mumbai mobility graph features,
+    executes data health audits, prevents feature structural breaks,
+    and cleanly decouples the ingestion layer from downstream training.
     """
-    # Assign default workspace paths if nothing is passed explicitly
-    if raw_logs_dir is None:
-        raw_logs_dir = os.path.join('raw_data', 'sample_user_logs')
-    if fallback_csv_path is None:
-        fallback_csv_path = os.path.join('raw_data', 'phone_features.csv')
-
+    print("\n" + "="*65)
+    print("[PIPELINE] INITIALIZING MUMBAI METADATA INGESTION LAYER")
+    print("="*65)
+    
+    # Target file path declaration relative to project root
+    features_path = os.path.join('raw_data', 'mumbai_phone_features.csv')
+    
     # -------------------------------------------------------------------------
-    # SCENARIO A: Dynamic Plug-and-Play Raw Processing Mode
+    # WORKSPACE ENVIRONMENT PATH AUDIT
     # -------------------------------------------------------------------------
-    # Check if a folder exists and contains raw user transaction files
-    if os.path.exists(raw_logs_dir) and any(f.endswith('.csv') for f in os.listdir(raw_logs_dir)):
-        if not BANDICOOT_AVAILABLE:
-            print("[WARN] Raw logs detected, but 'bandicoot' library is missing!")
-            print("       Falling back directly to pre-computed matrix strategy...")
-        else:
-            print(f"[PIPELINE-RAW] Live data stream detected in '{raw_logs_dir}'")
-            print("[PIPELINE-RAW] Initializing dynamic bandicoot extraction engine...")
-            
-            extracted_profiles = []
-            phone_identifiers = []
-            
-            for file_name in os.listdir(raw_logs_dir):
-                if file_name.endswith('.csv'):
-                    phone_no = file_name.replace('.csv', '')
-                    phone_identifiers.append(phone_no)
-                    
-                    # Core bandicoot calls: load raw primitive rows & extract extended metrics
-                    user_records = bc.load(phone_no, raw_logs_dir, recompute_virtual_records=True)
-                    metrics = bc.utils.all(user_records, summary='extended')
-                    extracted_profiles.append(metrics)
-            
-            # Flatten the multi-layered dictionary arrays into our feature matrix (X)
-            X_raw = pd.DataFrame(extracted_profiles)
-            X_clean = X_raw.fillna(X_raw.mean()).fillna(0)
-            
-            _print_success_banner(X_clean.shape[0], X_clean.shape[1], data_type="LIVE CDR LOGS")
-            return pd.Series(phone_identifiers, name='phone_number'), X_clean
-
-    # -------------------------------------------------------------------------
-    # SCENARIO B: Research/Development Fallback Mode (The Pre-computed Array)
-    # -------------------------------------------------------------------------
-    print(f"[PIPELINE-STATIC] No raw streams active. Loading fallback source: '{fallback_csv_path}'")
-    if not os.path.exists(fallback_csv_path):
-        raise FileNotFoundError(
-            f"Pipeline Gateway Failure. Could not resolve raw folders or fallback file: '{fallback_csv_path}'"
-        )
+    # If the user executes from inside the src/ folder, programmatically 
+    # move back one step to avoid path breaks or FileNotFoundError issues.
+    if os.path.basename(os.getcwd()) == 'src':
+        print("[PIPELINE] Active directory subfolder 'src' caught. Recalibrating root...")
+        os.chdir('..')
         
-    feature_matrix = pd.read_csv(fallback_csv_path)
-    phone_identifiers = feature_matrix['phone_number']
-    X_raw = feature_matrix.drop(columns=['phone_number'], errors='ignore')
+    if not os.path.exists(features_path):
+        print(f"\n[CRITICAL ERROR] Target matrix missing: Could not find '{features_path}'")
+        print("Please verify that 'python src/generate_mumbai_data.py' has been run successfully.\n")
+        raise FileNotFoundError(f"Missing component dependency: {features_path}")
+        
+    # -------------------------------------------------------------------------
+    # DATA LOADING & QUALITY SANITIZATION LOOP
+    # -------------------------------------------------------------------------
+    print(f"[PIPELINE] Streaming file connection: {features_path}")
+    features_df = pd.read_csv(features_path)
+    print(f"[PIPELINE] Ingestion successful. Matrix Compiled: {features_df.shape[0]} nodes x {features_df.shape[1]} descriptors.")
     
-    # Run missing value safety checks
-    X_clean = X_raw.fillna(X_raw.mean()).fillna(0)
+    # Scan for null records or corrupt vectors to guarantee smooth backpropagation
+    null_counts = features_df.isnull().sum().sum()
+    if null_counts > 0:
+        print(f"[WARNING] Detected {null_counts} corrupted null fields. Applying neighborhood forward-fill.")
+        features_df = features_df.fillna(method='ffill').fillna(method='bfill')
+    else:
+        print("[PIPELINE] Data health validation passed. Zero corrupt or null entries detected.")
+        
+    # -------------------------------------------------------------------------
+    # DECOUPLING & MATRIX EXTRACTS
+    # -------------------------------------------------------------------------
+    # Isolate relational primary tracking keys to preserve tracking identity
+    phone_identifiers = features_df['phone_number'].values
     
-    _print_success_banner(X_clean.shape[0], X_clean.shape[1], data_type="PRE-COMPUTED MATRIX")
-    return phone_identifiers, X_clean
-
-
-def _print_success_banner(rows, cols, data_type):
-    """Prints a clean status window inside the command prompt."""
-    print("\n" + "=" * 65)
-    print(f"[SUCCESS] PIPELINE PROCESSING COMPLETED")
-    print(f"  * Ingestion Influx Model : {data_type}")
-    print(f"  * Total Profiles Matched : {rows}")
-    print(f"  * Total Active Features  : {cols}")
-    print("=" * 65 + "\n")
-
+    # Return the dataframe with the identifier key intact so that train.py 
+    # can run a perfect database join on survey target labels.
+    X_features = features_df.copy()
+    
+    print("[PIPELINE] Feature extraction decoupled. Handing variables to model wrapper.")
+    print("="*65 + "\n")
+    
+    return phone_identifiers, X_features
 
 if __name__ == '__main__':
-    # Test script execution rules to make sure it handles files out of the box
+    # Local unit testing entry point to verify environment path compliance
     try:
-        ids, features = run_feature_alignment_pipeline()
-        print("Sample Layout Head:\n", features.iloc[:3, :3])
-    except Exception as e:
-        print(f"[CRITICAL ERROR] Pipeline breakdown: {e}")
+        phone_ids, data_matrix = run_feature_alignment_pipeline()
+        print("🎉 [TEST PASSED] Pipeline execution is completely stable.")
+        print(f"  * Sample Subscriber Keys Verified : {phone_ids[:2]}")
+        print(f"  * Engineered Features Isolated    : {list(data_matrix.columns.drop('phone_number')[:4])}...")
+    except Exception as error:
+        print(f"❌ [TEST FAILED] Pipeline runtime exception: {error}")
+        
