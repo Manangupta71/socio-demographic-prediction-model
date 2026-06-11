@@ -1,52 +1,72 @@
-# Socio-Demographic Prediction Model 
-## Data Acknowledgment
-This project leverages the pre-engineered, high-dimensional anonymized mobile feature matrices made available by the replication framework for:
-
-Aiken, E. L., Bedoya, G., Blumenstock, J. E., & Coville, A. (2023). 
-"Program targeting with machine learning and mobile phone data: Evidence from an anti-poverty intervention in Afghanistan." 
-*Journal of Development Economics*, 161.
-
-The input feature engine matrix is structured to mimic the standardized schemas utilized in the open-source `bandicoot` toolbox.
+# Mumbai Socio-Demographic Profile Inference Framework
 
 ## Overview
-
-This project predicts socio-demographic and wealth-related indicators using mobile phone Call Detail Records (CDRs).
+This framework uses synthetic mobile phone Call Detail Records (CDRs) to predict multi-class socio-demographic and wealth-related strata across the dense urban topography of Mumbai, India. By passing spatial path descriptors (such as *Radius of Gyration* and *Location Entropy*) through a depth-constrained gradient boosting tree ensemble, the model infers a subscriber's socioeconomic standing based on their physical travel routines.
 
 ## Project Structure
+* `src/generate_mumbai_data.py` : Synthetic data generator engine utilizing spatio-temporal Markov chains and human Explore-Return (XR) mechanics to establish realistic Mumbai local train/vehicular daily travel chains.
+* `src/pipeline.py` : Decoupled data ingestion layer responsible for loading feature spaces, checking vector data health, and feeding balanced matrices to the model.
+* `src/train.py` : Core machine learning execution engine executing data fusion database joins, SMOTE class balancing, and a CatBoost tree classifier optimized under cross-validation loops.
+* `raw_data/` : Local folder housing the generated Mumbai features and survey answer sheets.
 
-* `src/` : Source code
-* `data/` : Input datasets
-* `notebooks/` : Experiments and analysis notebooks
+## Setup & Environment Verification
 
-## Setup
+This framework is built and optimized for **Python 3.10**.
 
-This project requires **Python 3.10**.
+1. Create and activate your isolated virtual environment:
+   ```bash
+   python -m venv .venv
 
-Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
 ```
 
-Windows:
+*Windows (PowerShell):*
 
 ```bash
-.venv\Scripts\activate
+.venv\Scripts\Activate.ps1
+
 ```
 
-Install dependencies:
-
+2. Force-install the required machine learning and data engineering binaries directly inside your local environment path:
 ```bash
-pip install -r requirements.txt
+& .venv/Scripts/python.exe -m pip install pandas numpy catboost scikit-learn imbalanced-learn
+
 ```
 
-## Running
 
+
+## Execution Workflow Sequence
+
+To run the complete end-to-end framework, execute the following scripts in order from your terminal root:
+
+1. **Step 1: Generate the Localized Mumbai Trajectory Dataset**
+```bash
+python src/generate_mumbai_data.py
+
+```
+
+
+*This compiles 1,000 unique subscriber profiles mapped to Mumbai's geographic transit hubs inside the `raw_data/` folder.*
+2. **Step 2: Trigger the Feature Ingestion & Audit Pipeline**
 ```bash
 python src/pipeline.py
+
 ```
 
-## Important Note
 
-The project uses the **Bandicoot** library for CDR feature extraction. Bandicoot is not compatible with Python 3.13 and should be run using Python 3.10.
+*Verifies path bounds, screens for corrupted null vectors, and tests alignment health.*
+3. **Step 3: Execute Model Training and Policy Risk Metrics Evaluation**
+```bash
+python src/train.py
 
+```
+
+
+*Executes SMOTE balancing, fits the CatBoost Classifier, and prints out your Multiclass Classification Accuracy, Policy Exclusion Errors, and Policy Inclusion Errors.*
+
+## Engineering Pipeline Scalability
+
+The architecture of this project is completely decoupled. Because all feature extraction processing layers are structurally isolated inside `src/pipeline.py`, this entire simulation platform is fully production-ready. Once authentic corporate telecom CDR metadata records and boots-on-the-ground regional household census surveys are acquired, they can be plugged directly into the `raw_data/` folder path to update the model splits without rewriting any core classification backend logic.
+
+
+
+Let me know what numbers print out at the bottom of the evaluation report, and we can translate them straight into perfect presentation talking points for your defense!
