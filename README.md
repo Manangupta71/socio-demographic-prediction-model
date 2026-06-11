@@ -66,7 +66,3 @@ python src/train.py
 ## Engineering Pipeline Scalability
 
 The architecture of this project is completely decoupled. Because all feature extraction processing layers are structurally isolated inside `src/pipeline.py`, this entire simulation platform is fully production-ready. Once authentic corporate telecom CDR metadata records and boots-on-the-ground regional household census surveys are acquired, they can be plugged directly into the `raw_data/` folder path to update the model splits without rewriting any core classification backend logic.
-
-
-
-Let me know what numbers print out at the bottom of the evaluation report, and we can translate them straight into perfect presentation talking points for your defense!
