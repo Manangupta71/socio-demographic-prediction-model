@@ -18,10 +18,10 @@ def run_mumbai_multi_target_synthesis():
     # Ingest Full Vector Ground Truth Surveys
     survey_path = os.path.join('raw_data', 'mumbai_survey.csv')
     if not os.path.exists(survey_path):
-        raise FileNotFoundError("Missing full survey matrices. Execute the updated data generator first.")
+        raise FileNotFoundError("Missing full survey matrices. Execute data generator first.")
     survey_df = pd.read_csv(survey_path)
     
-    # Perform relational join across the tracking key
+    # Perform relational join across tracking key
     merged_df = pd.merge(X_features, survey_df, on='phone_number', how='inner')
     print(f"[INGEST] Unified relational matrix matching complete. Seed Pool: {merged_df.shape[0]} Agents.")
     
@@ -36,12 +36,12 @@ def run_mumbai_multi_target_synthesis():
     X_matrix = merged_df[feature_cols].values
     
     print("\n" + "="*70)
-    print("          MUMBAI SYNTHETIC POPULATION PIPELINE EVALUATION")
+    print("        SOCIOECONOMIC DEMOGRAPHIC PREDICTION FOR MUMBAI")
     print("="*70)
     
     # Loop through each target attribute to train discrete specialized estimators
     for target in target_attributes:
-        print(f"\n⏳ Optimizing classification layer for target element: [{target}]")
+        print(f"\nOptimizing classification layer for target element: [{target}]")
         y_labels = merged_df[target].astype(str).values
         
         # Partition data blocks
@@ -72,13 +72,13 @@ def run_mumbai_multi_target_synthesis():
         y_pred = model.predict(X_test).flatten()
         acc = accuracy_score(y_test, y_pred)
         
-        print(f"✅ Target [{target}] - Synthesis Accuracy: {acc * 100:.2f}%")
+        print(f"Target [{target}] - Synthesis Accuracy: {acc * 100:.2f}%")
         print(f"--- Micro-Validation Report for {target} ---")
         print(classification_report(y_test, y_pred))
         print("-" * 70)
         
     print("\n" + "="*70)
-    print("  MULTI-OUTPUT POPULATION INFRASTRUCTURE VALIDATED FOR IPF EXPANSION")
+    print("  MULTI-OUTPUT POPULATION INFRASTRUCTURE VALIDATED")
     print("="*70 + "\n")
 
 if __name__ == '__main__':
