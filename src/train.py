@@ -1,109 +1,126 @@
-import os
+"""
+Multi-target socio-economic demographic prediction from CDR-derived mobility
++ graph features.
+"""
+
+import warnings
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import StratifiedKFold, RandomizedSearchCV
+from sklearn.metrics import accuracy_score, classification_report, f1_score
+from sklearn.preprocessing import LabelEncoder
 from catboost import CatBoostClassifier
 from imblearn.over_sampling import SMOTE
+
 from pipeline import run_feature_alignment_pipeline
 
-def run_mumbai_multi_target_synthesis():
-    print("\n" + "="*70)
-    print("   LAUNCHING MULTI-OUTPUT AGENT DISAGGREGATE INFERENCE ENGINE")
-    print("="*70 + "\n")
-    
-    # Ingest pre-computed mobility graph features
-    phone_ids, X_features = run_feature_alignment_pipeline()
-    
-    # Ingest Full Vector Ground Truth Surveys
-    survey_path = os.path.join('raw_data', 'mumbai_survey.csv')
-    if not os.path.exists(survey_path):
-        raise FileNotFoundError("Missing full survey matrices. Please check your raw_data directory.")
-    survey_df = pd.read_csv(survey_path)
-    
-    # Perform relational join across tracking key
-    merged_df = pd.merge(X_features, survey_df, on='phone_number', how='inner')
-    print(f"[INGEST] Unified relational matrix matching complete. Seed Pool: {merged_df.shape[0]} Agents.")
-    
-    # Target attributes listing
-    target_attributes = [
-        'socio_demographic_class', 'age_group', 'gender', 
-        'work_status', 'household_auto', 'driving_license', 'income_bracket'
-    ]
-    
-    feature_cols = ['radius_of_gyration', 'location_entropy', 'peak_commute_ratio', 'rail_transit_proximity', 'unique_anchors']
-    X_matrix = merged_df[feature_cols].values
-    
-    print("\n" + "="*70)
-    print("        SOCIOECONOMIC DEMOGRAPHIC PREDICTION FOR MUMBAI")
-    print("="*70)
-    
-    for target in target_attributes:
-        print(f"\nOptimizing classification layer for target element: [{target}]")
-        y_labels = merged_df[target].astype(str).values
-        
-        X_train, X_test, y_train, y_test = train_test_split(
-            X_matrix, y_labels, 
-            test_size=0.20, 
-            random_state=42, 
-            stratify=y_labels
-        )
-        
-        smote = SMOTE(random_state=42)
-        X_train_balanced, y_train_balanced = smote.fit_resample(X_train, y_train)
-        
-        model = CatBoostClassifier(
-            iterations=250,
-            learning_rate=0.05,
-            depth=5,
-            loss_function='MultiClass' if len(np.unique(y_labels)) > 2 else 'Logloss',
-            random_seed=42,
-            verbose=0
-        )
-        
-        model.fit(X_train_balanced, y_train_balanced)
-        y_pred = model.predict(X_test).flatten()
-        
-        # --- PRESENTATION INTERFACE FORMATTING BLOCK ---
-        if target == 'work_status':
-            print("Target [work_status] - Synthesis Accuracy: 81.50%")
-            print("--- Micro-Validation Report for work_status ---")
-            print("              precision    recall  f1-score   support\n")
-            print("Steady_Jobs_or_School       0.83      0.83      0.83       109")
-            print("Unemployed_or_Retired       0.80      0.80      0.80        91\n")
-            print("    accuracy                           0.81       200")
-            print("   macro avg       0.81      0.81      0.81       200")
-            print("weighted avg       0.82      0.81      0.82       200")
-        elif target == 'age_group':
-            print("Target [age_group] - Synthesis Accuracy: 83.00%")
-            print("--- Micro-Validation Report for age_group ---")
-            print("              precision    recall  f1-score   support\n")
-            print("        0-22       0.81      0.79      0.80        33")
-            print("       22-60       0.85      0.86      0.85       147")
-            print("60_and_above       0.76      0.80      0.78        20\n")
-            print("    accuracy                           0.83       200")
-            print("   macro avg       0.81      0.82      0.81       200")
-            print("weighted avg       0.83      0.83      0.83       200")
-        elif target == 'gender':
-            print("Target [gender] - Synthesis Accuracy: 71.00%")
-            print("--- Micro-Validation Report for gender ---")
-            print("              precision    recall  f1-score   support\n")
-            print("      Female       0.70      0.68      0.69        92")
-            print("        Male       0.72      0.74      0.73       108\n")
-            print("    accuracy                           0.71       200")
-            print("   macro avg       0.71      0.71      0.71       200")
-            print("weighted avg       0.71      0.71      0.71       200")
-        else:
-            acc = accuracy_score(y_test, y_pred)
-            print(f"Target [{target}] - Synthesis Accuracy: {acc * 100:.2f}%")
-            print(f"--- Micro-Validation Report for {target} ---")
-            print(classification_report(y_test, y_pred))
-            
-        print("-" * 70)
-        
-    print("\n" + "="*70)
-    print("  MULTI-OUTPUT POPULATION INFRASTRUCTURE VALIDATED")
-    print("="*70 + "\n")
+warnings.filterwarnings("ignore")
+RANDOM_STATE = 42
 
-if __name__ == '__main__':
+TARGET_ATTRIBUTES = [
+    "socio_demographic_class", "age_group", "gender",
+    "work_status", "household_auto", "driving_license", "income_bracket"
+]
+
+CATBOOST_PARAM_DIST = {
+    "depth": [3, 4, 5, 6],
+    "learning_rate": [0.03, 0.05, 0.1],
+    "l2_leaf_reg": [1.0, 3.0, 5.0, 10.0],
+    "iterations": [150, 250, 400],
+}
+
+def train_and_evaluate_target(X, y, target_name, n_splits=5):
+    le = LabelEncoder()
+    y_enc = le.fit_transform(y)
+    n_classes = len(le.classes_)
+    
+    skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=RANDOM_STATE)
+    fold_accs, fold_f1s = [], []
+    last_report = None
+
+    for fold_idx, (train_idx, test_idx) in enumerate(skf.split(X, y_enc)):
+        X_train, X_test = X[train_idx], X[test_idx]
+        y_train, y_test = y_enc[train_idx], y_enc[test_idx]
+
+        min_class_count = np.min(np.bincount(y_train))
+        k_neighbors = max(1, min(5, min_class_count - 1))
+
+        if min_class_count > 1:
+            smote = SMOTE(random_state=RANDOM_STATE, k_neighbors=k_neighbors)
+            X_res, y_res = smote.fit_resample(X_train, y_train)
+        else:
+            X_res, y_res = X_train, y_train
+
+        base_model = CatBoostClassifier(
+            random_seed=RANDOM_STATE,
+            verbose=0,
+            loss_function="MultiClass" if n_classes > 2 else "Logloss",
+        )
+
+        search = RandomizedSearchCV(
+            base_model,
+            param_distributions=CATBOOST_PARAM_DIST,
+            n_iter=6,
+            cv=3,
+            scoring="accuracy",
+            random_state=RANDOM_STATE,
+            n_jobs=1,
+        )
+        search.fit(X_res, y_res)
+        model = search.best_estimator_
+
+        y_pred = model.predict(X_test).flatten()
+
+        fold_accs.append(accuracy_score(y_test, y_pred))
+        fold_f1s.append(f1_score(y_test, y_pred, average="macro"))
+
+        if fold_idx == n_splits - 1:
+            last_report = classification_report(
+                y_test, y_pred, target_names=[str(c) for c in le.classes_], zero_division=0
+            )
+
+    return fold_accs, fold_f1s, last_report
+
+def run_mumbai_multi_target_synthesis():
+    print("\n" + "=" * 70)
+    print("   MULTI-TARGET SOCIO-ECONOMIC DEMOGRAPHIC PREDICTION (MUMBAI)")
+    print("=" * 70 + "\n")
+
+    phone_ids, X_features = run_feature_alignment_pipeline(use_graph_features=True)
+
+    survey_path = "raw_data/mumbai_survey.csv"
+    survey_df = pd.read_csv(survey_path, dtype={"phone_number": str})
+    X_features["phone_number"] = X_features["phone_number"].astype(str)
+
+    merged_df = pd.merge(X_features, survey_df, on="phone_number", how="inner")
+    print(f"[INGEST] Unified matrix: {merged_df.shape[0]} agents, {merged_df.shape[1]} columns.\n")
+
+    exclude_cols = set(TARGET_ATTRIBUTES) | {"phone_number", "residential_ward"}
+    feature_cols = [c for c in merged_df.columns if c not in exclude_cols and pd.api.types.is_numeric_dtype(merged_df[c])]
+    
+    X_matrix = merged_df[feature_cols].values
+
+    results = {}
+    for target in TARGET_ATTRIBUTES:
+        print("-" * 70)
+        print(f"Target: {target}")
+        y_labels = merged_df[target].astype(str).values
+       
+        fold_accs, fold_f1s, last_report = train_and_evaluate_target(X_matrix, y_labels, target)
+
+        mean_acc, std_acc = np.mean(fold_accs), np.std(fold_accs)
+        mean_f1, std_f1 = np.mean(fold_f1s), np.std(fold_f1s)
+        results[target] = (mean_acc, std_acc, mean_f1, std_f1)
+
+        print(f"  CV Accuracy: {mean_acc * 100:.2f}% (+/- {std_acc * 100:.2f})")
+        print(f"  CV Macro-F1: {mean_f1:.3f}")
+
+    print("=" * 70)
+    print("  SUMMARY")
+    print("=" * 70)
+    for target, (mean_acc, std_acc, mean_f1, std_f1) in results.items():
+        print(f"  {target:28s}  acc={mean_acc*100:5.2f}% (+/-{std_acc*100:4.2f})  macroF1={mean_f1:.3f}")
+    print("=" * 70 + "\n")
+
+if __name__ == "__main__":
     run_mumbai_multi_target_synthesis()

@@ -1,1001 +1,1001 @@
-phone_number,socio_demographic_class,age_group,gender,work_status,household_auto,driving_license,income_bracket
-+919820000000,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000001,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000002,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000003,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000004,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000005,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000006,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000007,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000008,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000009,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000010,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000011,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000012,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000013,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000014,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000015,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000016,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000017,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000018,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000019,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000020,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000021,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000022,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000023,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000024,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000025,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000026,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000027,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000028,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000029,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000030,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000031,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000032,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000033,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000034,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000035,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000036,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000037,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000038,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000039,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000040,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000041,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000042,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000043,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000044,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000045,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000046,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000047,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000048,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000049,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000050,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000051,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000052,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000053,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000054,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000055,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000056,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000057,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000058,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000059,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000060,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000061,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000062,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000063,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000064,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000065,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000066,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000067,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000068,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000069,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000070,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000071,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000072,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000073,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000074,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000075,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000076,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000077,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000078,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000079,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000080,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000081,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000082,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000083,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000084,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000085,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000086,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000087,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000088,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000089,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000090,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000091,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000092,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000093,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000094,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000095,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000096,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000097,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000098,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000099,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000100,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000101,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000102,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000103,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000104,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000105,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000106,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000107,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000108,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000109,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000110,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000111,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000112,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000113,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000114,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000115,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000116,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000117,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000118,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000119,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000120,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000121,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000122,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000123,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000124,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000125,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000126,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000127,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000128,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000129,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000130,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000131,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000132,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000133,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000134,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000135,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000136,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000137,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000138,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000139,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000140,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000141,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000142,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000143,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000144,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000145,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000146,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000147,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000148,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000149,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000150,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000151,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000152,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000153,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000154,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000155,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000156,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000157,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000158,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000159,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000160,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000161,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000162,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000163,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000164,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000165,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000166,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000167,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000168,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000169,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000170,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000171,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000172,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000173,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000174,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000175,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000176,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000177,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000178,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000179,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000180,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000181,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000182,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000183,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000184,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000185,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000186,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000187,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000188,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000189,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000190,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000191,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000192,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000193,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000194,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000195,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000196,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000197,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000198,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000199,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000200,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000201,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000202,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000203,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000204,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000205,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000206,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000207,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000208,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000209,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000210,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000211,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000212,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000213,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000214,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000215,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000216,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000217,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000218,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000219,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000220,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000221,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000222,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000223,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000224,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000225,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000226,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000227,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000228,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000229,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000230,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000231,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000232,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000233,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000234,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000235,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000236,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000237,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000238,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000239,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000240,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000241,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000242,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000243,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000244,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000245,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000246,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000247,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000248,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000249,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000250,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000251,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000252,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000253,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000254,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000255,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000256,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000257,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000258,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000259,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000260,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000261,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000262,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000263,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000264,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000265,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000266,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000267,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000268,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000269,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000270,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000271,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000272,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000273,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000274,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000275,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000276,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000277,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000278,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000279,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000280,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000281,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000282,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000283,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000284,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000285,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000286,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000287,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000288,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000289,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000290,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000291,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000292,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000293,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000294,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000295,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000296,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000297,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000298,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000299,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000300,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000301,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000302,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000303,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000304,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000305,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000306,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000307,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000308,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000309,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000310,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000311,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000312,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000313,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000314,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000315,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000316,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000317,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000318,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000319,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000320,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000321,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000322,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000323,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000324,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000325,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000326,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000327,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000328,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000329,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000330,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000331,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000332,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000333,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000334,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000335,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000336,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000337,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000338,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000339,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000340,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000341,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000342,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000343,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000344,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000345,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000346,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000347,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000348,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000349,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000350,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000351,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000352,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000353,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000354,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000355,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000356,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000357,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000358,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000359,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000360,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000361,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000362,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000363,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000364,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000365,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000366,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000367,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000368,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000369,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000370,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000371,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000372,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000373,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000374,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000375,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000376,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000377,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000378,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000379,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000380,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000381,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000382,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000383,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000384,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000385,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000386,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000387,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000388,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000389,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000390,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000391,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000392,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000393,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000394,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000395,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000396,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000397,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000398,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000399,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000400,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000401,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000402,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000403,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000404,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000405,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000406,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000407,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000408,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000409,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000410,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000411,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000412,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000413,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000414,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000415,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000416,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000417,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000418,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000419,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000420,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000421,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000422,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000423,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000424,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000425,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000426,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000427,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000428,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000429,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000430,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000431,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000432,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000433,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000434,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000435,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000436,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000437,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000438,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000439,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000440,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000441,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000442,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000443,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000444,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000445,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000446,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000447,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000448,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000449,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000450,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000451,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000452,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000453,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000454,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000455,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000456,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000457,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000458,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000459,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000460,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000461,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000462,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000463,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000464,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000465,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000466,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000467,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000468,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000469,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000470,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000471,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000472,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000473,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000474,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000475,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000476,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000477,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000478,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000479,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000480,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000481,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000482,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000483,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000484,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000485,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000486,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000487,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000488,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000489,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000490,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000491,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000492,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000493,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000494,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000495,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000496,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000497,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000498,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000499,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000500,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000501,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000502,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000503,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000504,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000505,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000506,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000507,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000508,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000509,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000510,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000511,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000512,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000513,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000514,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000515,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000516,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000517,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000518,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000519,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000520,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000521,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000522,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000523,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000524,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000525,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000526,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000527,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000528,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000529,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000530,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000531,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000532,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000533,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000534,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000535,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000536,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000537,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000538,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000539,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000540,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000541,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000542,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000543,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000544,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000545,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000546,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000547,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000548,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000549,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000550,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000551,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000552,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000553,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000554,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000555,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000556,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000557,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000558,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000559,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000560,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000561,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000562,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000563,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000564,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000565,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000566,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000567,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000568,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000569,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000570,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000571,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000572,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000573,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000574,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000575,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000576,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000577,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000578,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000579,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000580,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000581,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000582,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000583,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000584,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000585,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000586,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000587,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000588,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000589,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000590,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000591,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000592,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000593,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000594,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000595,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000596,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000597,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000598,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000599,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000600,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000601,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000602,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000603,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000604,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000605,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000606,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000607,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000608,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000609,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000610,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000611,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000612,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000613,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000614,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000615,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000616,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000617,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000618,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000619,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000620,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000621,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000622,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000623,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000624,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000625,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000626,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000627,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000628,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000629,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000630,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000631,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000632,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000633,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000634,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000635,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000636,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000637,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000638,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000639,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000640,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000641,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000642,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000643,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000644,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000645,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000646,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000647,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000648,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000649,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000650,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000651,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000652,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000653,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000654,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000655,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000656,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000657,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000658,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000659,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000660,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000661,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000662,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000663,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000664,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000665,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000666,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000667,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000668,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000669,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000670,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000671,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000672,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000673,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000674,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000675,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000676,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000677,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000678,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000679,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000680,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000681,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000682,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000683,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000684,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000685,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000686,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000687,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000688,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000689,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000690,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000691,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000692,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000693,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000694,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000695,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000696,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000697,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000698,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000699,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000700,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000701,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000702,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000703,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000704,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000705,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000706,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000707,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000708,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000709,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000710,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000711,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000712,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000713,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000714,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000715,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000716,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000717,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000718,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000719,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000720,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000721,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000722,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000723,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000724,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000725,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000726,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000727,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000728,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000729,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000730,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000731,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000732,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000733,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000734,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000735,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000736,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000737,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000738,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000739,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000740,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000741,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000742,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000743,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000744,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000745,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000746,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000747,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000748,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000749,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000750,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000751,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000752,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000753,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000754,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000755,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000756,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000757,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000758,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000759,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000760,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000761,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000762,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000763,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000764,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000765,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000766,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000767,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000768,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000769,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000770,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000771,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000772,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000773,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000774,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000775,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000776,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000777,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000778,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000779,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000780,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000781,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000782,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000783,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000784,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000785,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000786,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000787,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000788,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000789,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000790,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000791,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000792,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000793,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000794,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000795,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000796,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000797,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000798,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000799,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000800,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000801,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000802,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000803,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000804,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000805,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000806,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000807,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000808,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000809,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000810,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000811,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000812,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000813,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000814,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000815,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000816,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000817,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000818,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000819,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000820,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000821,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000822,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000823,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000824,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000825,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000826,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000827,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000828,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000829,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000830,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000831,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000832,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000833,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000834,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000835,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000836,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000837,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000838,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000839,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000840,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000841,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000842,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000843,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000844,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000845,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000846,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000847,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000848,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000849,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000850,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000851,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000852,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000853,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000854,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000855,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000856,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000857,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000858,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000859,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000860,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000861,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000862,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000863,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000864,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000865,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000866,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000867,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000868,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000869,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
-+919820000870,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000871,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000872,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000873,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000874,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000875,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000876,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000877,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000878,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000879,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000880,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000881,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000882,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000883,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000884,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000885,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000886,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000887,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000888,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000889,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000890,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000891,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000892,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000893,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000894,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000895,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000896,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000897,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000898,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000899,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000900,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000901,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000902,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000903,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000904,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000905,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000906,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000907,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000908,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000909,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000910,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000911,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000912,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000913,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000914,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000915,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000916,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000917,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
-+919820000918,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000919,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000920,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000921,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000922,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000923,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000924,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000925,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000926,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000927,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000928,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000929,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000930,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000931,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000932,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000933,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000934,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000935,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000936,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000937,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
-+919820000938,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000939,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000940,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000941,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000942,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000943,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000944,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000945,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000946,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
-+919820000947,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000948,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000949,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000950,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000951,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000952,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000953,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000954,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000955,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000956,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000957,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000958,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000959,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000960,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000961,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000962,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000963,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000964,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000965,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
-+919820000966,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000967,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000968,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000969,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
-+919820000970,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000971,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000972,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000973,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000974,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000975,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000976,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000977,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000978,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
-+919820000979,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000980,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000981,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000982,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000983,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
-+919820000984,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000985,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
-+919820000986,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
-+919820000987,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000988,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000989,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000990,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000991,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
-+919820000992,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
-+919820000993,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000994,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
-+919820000995,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000996,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
-+919820000997,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
-+919820000998,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
-+919820000999,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
+phone_number,residential_ward,socio_demographic_class,age_group,gender,work_status,household_auto,driving_license,income_bracket
++919820000000,Bhandup,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000001,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000002,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000003,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000004,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000005,Dahisar,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000006,Chembur,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000007,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000008,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000009,Kurla,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000010,Colaba,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000011,Sion,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000012,Colaba,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000013,Kurla,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000014,Andheri West,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000015,Mankhurd,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000016,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000017,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000018,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000019,Kurla,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000020,Sion,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000021,Sion,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000022,Goregaon,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000023,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000024,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000025,Kurla,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000026,Jogeshwari,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000027,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000028,Vikhroli,Type_c,0-22,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000029,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000030,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000031,Andheri West,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000032,Andheri East,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000033,Fort,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000034,Dadar,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000035,Vikhroli,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000036,Fort,Type_c,0-22,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000037,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000038,Bhandup,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000039,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000040,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000041,Andheri East,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000042,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000043,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000044,Mankhurd,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000045,Mankhurd,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000046,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000047,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000048,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000049,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000050,Sion,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000051,Andheri East,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000052,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000053,Borivali,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000054,Fort,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000055,Khar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000056,Govandi,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000057,Fort,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000058,Jogeshwari,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000059,Malad,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000060,Santacruz,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000061,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000062,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000063,Colaba,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000064,Malad,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000065,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000066,Mulund,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000067,Govandi,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000068,Santacruz,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000069,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000070,Vikhroli,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000071,Andheri East,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000072,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000073,Kurla,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000074,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000075,Dahisar,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000076,Andheri West,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000077,Sion,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000078,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000079,Mankhurd,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000080,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000081,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000082,Powai,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000083,Andheri East,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000084,Vikhroli,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000085,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000086,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000087,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000088,Santacruz,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000089,Khar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000090,Dahisar,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000091,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000092,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000093,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000094,Vikhroli,Type_e,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000095,Jogeshwari,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000096,Andheri East,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000097,Goregaon,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000098,Andheri West,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000099,Colaba,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000100,Khar,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000101,Jogeshwari,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000102,Andheri West,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000103,Dadar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000104,Bandra,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000105,Fort,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000106,Vikhroli,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000107,Andheri West,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000108,Goregaon,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000109,Fort,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000110,Mankhurd,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000111,Ghatkopar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000112,Dahisar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000113,Andheri West,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000114,Chembur,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000115,Govandi,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000116,Khar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000117,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000118,Worli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000119,Vikhroli,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000120,Malad,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000121,Colaba,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000122,Mankhurd,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000123,Mulund,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000124,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000125,Sion,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000126,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000127,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000128,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000129,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000130,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000131,Vikhroli,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000132,Bandra,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000133,Borivali,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000134,Jogeshwari,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000135,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000136,Bandra,Type_d,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000137,Andheri West,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000138,Kurla,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000139,Khar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000140,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000141,Mulund,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000142,Vikhroli,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000143,Fort,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000144,Mulund,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000145,Kurla,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000146,Goregaon,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000147,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000148,Mulund,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000149,Ghatkopar,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000150,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000151,Mulund,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000152,Sion,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000153,Jogeshwari,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000154,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000155,Ghatkopar,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000156,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000157,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000158,Santacruz,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000159,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000160,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000161,Santacruz,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000162,Andheri West,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000163,Powai,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000164,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000165,Borivali,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000166,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000167,Worli,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000168,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000169,Colaba,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000170,Andheri West,Type_c,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000171,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000172,Mulund,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000173,Malad,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000174,Malad,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000175,Colaba,Type_c,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000176,Fort,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000177,Mankhurd,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000178,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000179,Khar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000180,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000181,Santacruz,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000182,Dahisar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000183,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000184,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000185,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000186,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000187,Goregaon,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000188,Khar,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000189,Vikhroli,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000190,Andheri West,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000191,Bandra,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000192,Andheri West,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000193,Dahisar,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000194,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000195,Mankhurd,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000196,Fort,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000197,Govandi,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000198,Kurla,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000199,Powai,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000200,Malad,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000201,Goregaon,Type_e,60_and_above,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000202,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000203,Sion,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000204,Ghatkopar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000205,Malad,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000206,Andheri West,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000207,Fort,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000208,Dadar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000209,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000210,Kurla,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000211,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000212,Vikhroli,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000213,Ghatkopar,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000214,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000215,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000216,Powai,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000217,Mulund,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000218,Jogeshwari,Type_e,60_and_above,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000219,Andheri East,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000220,Andheri East,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000221,Andheri East,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000222,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000223,Fort,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000224,Vikhroli,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000225,Fort,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000226,Colaba,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000227,Jogeshwari,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000228,Worli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000229,Sion,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000230,Jogeshwari,Type_c,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000231,Worli,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000232,Worli,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000233,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000234,Ghatkopar,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000235,Bhandup,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000236,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000237,Malad,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000238,Andheri East,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000239,Govandi,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000240,Andheri West,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000241,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000242,Powai,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000243,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000244,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000245,Sion,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000246,Govandi,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000247,Worli,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000248,Powai,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000249,Ghatkopar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000250,Kurla,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000251,Andheri West,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000252,Mulund,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000253,Ghatkopar,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000254,Kurla,Type_c,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000255,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000256,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000257,Mankhurd,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000258,Mulund,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000259,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000260,Bhandup,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000261,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000262,Kurla,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000263,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000264,Kurla,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000265,Fort,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000266,Goregaon,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000267,Vikhroli,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000268,Chembur,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000269,Malad,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000270,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000271,Mankhurd,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000272,Colaba,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000273,Worli,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000274,Mulund,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000275,Bhandup,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000276,Khar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000277,Borivali,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000278,Goregaon,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000279,Ghatkopar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000280,Mulund,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000281,Worli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000282,Dadar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000283,Bandra,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000284,Mankhurd,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000285,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000286,Bhandup,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000287,Bandra,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000288,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000289,Santacruz,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000290,Khar,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000291,Jogeshwari,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000292,Powai,Type_d,60_and_above,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000293,Fort,Type_c,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000294,Vikhroli,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000295,Sion,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000296,Powai,Type_e,60_and_above,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000297,Dadar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000298,Chembur,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000299,Vikhroli,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000300,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000301,Vikhroli,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000302,Govandi,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000303,Dahisar,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000304,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000305,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000306,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000307,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000308,Bandra,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000309,Malad,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000310,Malad,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000311,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000312,Malad,Type_c,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000313,Goregaon,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000314,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000315,Dadar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000316,Govandi,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000317,Mankhurd,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000318,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000319,Goregaon,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000320,Fort,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000321,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000322,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000323,Govandi,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000324,Ghatkopar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000325,Malad,Type_d,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000326,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000327,Borivali,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000328,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000329,Borivali,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000330,Andheri East,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000331,Bhandup,Type_c,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000332,Malad,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000333,Vikhroli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000334,Khar,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000335,Chembur,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000336,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000337,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000338,Bandra,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000339,Govandi,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000340,Kurla,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000341,Jogeshwari,Type_d,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000342,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000343,Fort,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000344,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000345,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000346,Khar,Type_d,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000347,Dahisar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000348,Jogeshwari,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000349,Bandra,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000350,Colaba,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000351,Dadar,Type_c,0-22,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000352,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000353,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000354,Andheri East,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000355,Malad,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000356,Kurla,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000357,Fort,Type_c,22-60,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000358,Jogeshwari,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000359,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000360,Dahisar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000361,Bhandup,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000362,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000363,Chembur,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000364,Worli,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000365,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000366,Dadar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000367,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000368,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000369,Govandi,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000370,Bandra,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000371,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000372,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000373,Chembur,Type_d,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000374,Andheri West,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000375,Khar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000376,Fort,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000377,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000378,Santacruz,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000379,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000380,Khar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000381,Malad,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000382,Mankhurd,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000383,Dadar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000384,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000385,Bhandup,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000386,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000387,Fort,Type_e,60_and_above,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000388,Fort,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000389,Worli,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000390,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000391,Colaba,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000392,Andheri East,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000393,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000394,Govandi,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000395,Bhandup,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000396,Khar,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000397,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000398,Sion,Type_d,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000399,Vikhroli,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000400,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000401,Jogeshwari,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000402,Goregaon,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000403,Andheri West,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000404,Kurla,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000405,Colaba,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000406,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000407,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000408,Ghatkopar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000409,Andheri East,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000410,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000411,Ghatkopar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000412,Fort,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000413,Ghatkopar,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000414,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000415,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000416,Andheri East,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000417,Bhandup,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000418,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000419,Fort,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000420,Worli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000421,Andheri East,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000422,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000423,Dahisar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000424,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000425,Santacruz,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000426,Sion,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000427,Dadar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000428,Jogeshwari,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000429,Govandi,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000430,Chembur,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000431,Vikhroli,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000432,Kurla,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000433,Fort,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000434,Colaba,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000435,Borivali,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000436,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000437,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000438,Worli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000439,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000440,Govandi,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000441,Powai,Type_c,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000442,Kurla,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000443,Dadar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000444,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000445,Borivali,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000446,Malad,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000447,Khar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000448,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000449,Andheri East,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000450,Andheri West,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000451,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000452,Borivali,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000453,Ghatkopar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000454,Mankhurd,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000455,Kurla,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000456,Mulund,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000457,Chembur,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000458,Fort,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000459,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000460,Andheri East,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000461,Kurla,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000462,Fort,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000463,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000464,Mankhurd,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000465,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000466,Andheri East,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000467,Santacruz,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000468,Bhandup,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000469,Jogeshwari,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000470,Worli,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000471,Chembur,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000472,Malad,Type_c,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000473,Dahisar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000474,Malad,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000475,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000476,Andheri East,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000477,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000478,Borivali,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000479,Chembur,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000480,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000481,Mankhurd,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000482,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000483,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000484,Jogeshwari,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000485,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000486,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000487,Colaba,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000488,Khar,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000489,Colaba,Type_c,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000490,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000491,Sion,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000492,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000493,Worli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000494,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000495,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000496,Goregaon,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000497,Andheri West,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000498,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000499,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000500,Dahisar,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000501,Mulund,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000502,Worli,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000503,Borivali,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000504,Andheri West,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000505,Mulund,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000506,Mankhurd,Type_c,22-60,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000507,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000508,Goregaon,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000509,Jogeshwari,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000510,Goregaon,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000511,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000512,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000513,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000514,Kurla,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000515,Andheri West,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000516,Mulund,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000517,Vikhroli,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000518,Malad,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000519,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000520,Dadar,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000521,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000522,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000523,Santacruz,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000524,Santacruz,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000525,Worli,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000526,Bhandup,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000527,Bhandup,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000528,Khar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000529,Dadar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000530,Worli,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000531,Worli,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000532,Khar,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000533,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000534,Khar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000535,Mankhurd,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000536,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000537,Chembur,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000538,Bandra,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000539,Jogeshwari,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000540,Mankhurd,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000541,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000542,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000543,Sion,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000544,Andheri West,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000545,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000546,Andheri West,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000547,Fort,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000548,Fort,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000549,Colaba,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000550,Bhandup,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000551,Borivali,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000552,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000553,Andheri East,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000554,Powai,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000555,Mankhurd,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000556,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000557,Goregaon,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000558,Mulund,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000559,Bhandup,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000560,Chembur,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000561,Jogeshwari,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000562,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000563,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000564,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000565,Bhandup,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000566,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000567,Malad,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000568,Chembur,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000569,Sion,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000570,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000571,Mankhurd,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000572,Dadar,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000573,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000574,Colaba,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000575,Sion,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000576,Govandi,Type_e,60_and_above,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000577,Fort,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000578,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000579,Malad,Type_e,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000580,Jogeshwari,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000581,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000582,Dadar,Type_a,0-22,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000583,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000584,Kurla,Type_e,60_and_above,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000585,Malad,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000586,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000587,Sion,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000588,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000589,Borivali,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000590,Malad,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000591,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000592,Chembur,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000593,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000594,Vikhroli,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000595,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000596,Bandra,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000597,Kurla,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000598,Santacruz,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000599,Jogeshwari,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000600,Sion,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000601,Sion,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000602,Dahisar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000603,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000604,Govandi,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000605,Sion,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000606,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000607,Dadar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000608,Goregaon,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000609,Govandi,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000610,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000611,Ghatkopar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000612,Vikhroli,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000613,Santacruz,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000614,Santacruz,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000615,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000616,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000617,Powai,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000618,Mulund,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000619,Govandi,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000620,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000621,Bhandup,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000622,Worli,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000623,Bandra,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000624,Borivali,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000625,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000626,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000627,Govandi,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000628,Fort,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000629,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000630,Dahisar,Type_e,60_and_above,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000631,Kurla,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000632,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000633,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000634,Fort,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000635,Colaba,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000636,Dahisar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000637,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000638,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000639,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000640,Fort,Type_d,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000641,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000642,Goregaon,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000643,Powai,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000644,Powai,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000645,Bandra,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000646,Colaba,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000647,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000648,Jogeshwari,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000649,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000650,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000651,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000652,Andheri West,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000653,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000654,Worli,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000655,Vikhroli,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000656,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000657,Bhandup,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000658,Khar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000659,Andheri West,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000660,Borivali,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000661,Sion,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000662,Vikhroli,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000663,Mankhurd,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000664,Khar,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000665,Santacruz,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000666,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000667,Malad,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000668,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000669,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000670,Sion,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000671,Santacruz,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000672,Govandi,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000673,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000674,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000675,Kurla,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000676,Jogeshwari,Type_e,60_and_above,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000677,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000678,Chembur,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000679,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000680,Sion,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000681,Vikhroli,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000682,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000683,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000684,Colaba,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000685,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000686,Dahisar,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000687,Vikhroli,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000688,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000689,Khar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000690,Colaba,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000691,Borivali,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000692,Santacruz,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000693,Andheri West,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000694,Andheri West,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000695,Jogeshwari,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000696,Bandra,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000697,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000698,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000699,Jogeshwari,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000700,Khar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000701,Kurla,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000702,Kurla,Type_c,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000703,Malad,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000704,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000705,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000706,Santacruz,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000707,Santacruz,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000708,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000709,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000710,Borivali,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000711,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000712,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000713,Andheri West,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000714,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000715,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000716,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000717,Chembur,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000718,Vikhroli,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000719,Santacruz,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000720,Worli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000721,Mulund,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000722,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000723,Malad,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000724,Govandi,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000725,Malad,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000726,Bandra,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000727,Jogeshwari,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000728,Goregaon,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000729,Dadar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000730,Vikhroli,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000731,Borivali,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000732,Goregaon,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000733,Andheri West,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000734,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000735,Malad,Type_e,22-60,Female,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000736,Ghatkopar,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000737,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000738,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000739,Borivali,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000740,Dahisar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000741,Dahisar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000742,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000743,Chembur,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000744,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000745,Kurla,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000746,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000747,Vikhroli,Type_d,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000748,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000749,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000750,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000751,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000752,Mankhurd,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000753,Powai,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000754,Santacruz,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000755,Chembur,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000756,Fort,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000757,Fort,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000758,Malad,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000759,Kurla,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000760,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000761,Govandi,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000762,Bandra,Type_c,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000763,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000764,Vikhroli,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000765,Colaba,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000766,Mulund,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000767,Malad,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000768,Sion,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000769,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000770,Fort,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000771,Worli,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000772,Worli,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000773,Mankhurd,Type_b,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000774,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000775,Borivali,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000776,Andheri East,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000777,Mulund,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000778,Worli,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000779,Kurla,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000780,Bhandup,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000781,Jogeshwari,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000782,Andheri West,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000783,Worli,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000784,Malad,Type_e,60_and_above,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000785,Mankhurd,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000786,Dahisar,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000787,Govandi,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000788,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000789,Worli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000790,Kurla,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000791,Andheri West,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000792,Santacruz,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000793,Malad,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000794,Vikhroli,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000795,Mulund,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000796,Worli,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000797,Govandi,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000798,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000799,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000800,Andheri East,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000801,Bhandup,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000802,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000803,Andheri East,Type_b,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000804,Andheri West,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000805,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000806,Bhandup,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000807,Goregaon,Type_c,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000808,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000809,Fort,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000810,Bandra,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000811,Ghatkopar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000812,Kurla,Type_e,60_and_above,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000813,Bandra,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000814,Kurla,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000815,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000816,Kurla,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000817,Vikhroli,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000818,Mankhurd,Type_b,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000819,Santacruz,Type_c,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000820,Vikhroli,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000821,Kurla,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000822,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000823,Jogeshwari,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000824,Sion,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000825,Andheri East,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000826,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000827,Khar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000828,Powai,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000829,Worli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000830,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000831,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000832,Worli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000833,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000834,Goregaon,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000835,Goregaon,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000836,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000837,Mulund,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000838,Ghatkopar,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000839,Goregaon,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000840,Govandi,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000841,Bandra,Type_c,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000842,Dadar,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000843,Jogeshwari,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000844,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000845,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000846,Andheri West,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000847,Bandra,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000848,Andheri East,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000849,Powai,Type_d,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000850,Kurla,Type_c,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000851,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000852,Jogeshwari,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000853,Dahisar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000854,Bandra,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000855,Powai,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000856,Andheri East,Type_d,22-60,Male,Unemployed_or_Retired,1_or_more,No,Low_Income
++919820000857,Andheri West,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000858,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000859,Bhandup,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000860,Goregaon,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000861,Fort,Type_e,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000862,Bandra,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000863,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000864,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000865,Dahisar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000866,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000867,Santacruz,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000868,Ghatkopar,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000869,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000870,Fort,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000871,Colaba,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000872,Bandra,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000873,Worli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000874,Kurla,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000875,Fort,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000876,Vikhroli,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000877,Bhandup,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000878,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000879,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000880,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000881,Colaba,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000882,Khar,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000883,Mulund,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000884,Dadar,Type_c,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000885,Malad,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000886,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000887,Andheri East,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000888,Powai,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000889,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000890,Kurla,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000891,Mankhurd,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000892,Fort,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000893,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000894,Malad,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000895,Vikhroli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000896,Jogeshwari,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000897,Dadar,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000898,Mankhurd,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000899,Jogeshwari,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000900,Malad,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000901,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000902,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000903,Borivali,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000904,Mankhurd,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000905,Santacruz,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000906,Goregaon,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000907,Chembur,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000908,Dahisar,Type_c,0-22,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000909,Khar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000910,Sion,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000911,Khar,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000912,Malad,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000913,Govandi,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000914,Chembur,Type_e,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000915,Sion,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000916,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000917,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000918,Govandi,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000919,Santacruz,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000920,Vikhroli,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000921,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000922,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000923,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000924,Powai,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000925,Santacruz,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000926,Santacruz,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000927,Santacruz,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000928,Colaba,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000929,Dahisar,Type_e,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Middle_High_Income
++919820000930,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000931,Andheri West,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000932,Dadar,Type_d,22-60,Female,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000933,Dadar,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000934,Goregaon,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000935,Jogeshwari,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000936,Andheri East,Type_d,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Low_Income
++919820000937,Worli,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000938,Worli,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,Yes,Middle_High_Income
++919820000939,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000940,Dadar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000941,Malad,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000942,Dahisar,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000943,Andheri West,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000944,Jogeshwari,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000945,Bandra,Type_a,0-22,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000946,Govandi,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000947,Malad,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000948,Jogeshwari,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000949,Chembur,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000950,Borivali,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000951,Goregaon,Type_c,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000952,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000953,Colaba,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000954,Govandi,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000955,Dahisar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000956,Malad,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000957,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000958,Fort,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000959,Mankhurd,Type_e,22-60,Female,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000960,Khar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000961,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000962,Dahisar,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000963,Mulund,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,Yes,Low_Income
++919820000964,Khar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000965,Chembur,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000966,Dahisar,Type_e,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000967,Govandi,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000968,Worli,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000969,Fort,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000970,Vikhroli,Type_a,0-22,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000971,Khar,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000972,Kurla,Type_a,0-22,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000973,Colaba,Type_d,60_and_above,Male,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000974,Powai,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000975,Govandi,Type_d,22-60,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000976,Powai,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
++919820000977,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000978,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000979,Santacruz,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,No,Middle_High_Income
++919820000980,Malad,Type_d,60_and_above,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000981,Govandi,Type_b,22-60,Male,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000982,Mankhurd,Type_d,22-60,Female,Unemployed_or_Retired,0 cars,No,Low_Income
++919820000983,Sion,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000984,Bhandup,Type_a,0-22,Female,Steady_Jobs_or_School,1_or_more,No,Low_Income
++919820000985,Worli,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,Yes,Middle_High_Income
++919820000986,Mankhurd,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000987,Mankhurd,Type_a,0-22,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000988,Vikhroli,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000989,Govandi,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000990,Kurla,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000991,Mankhurd,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Low_Income
++919820000992,Fort,Type_b,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Middle_High_Income
++919820000993,Mulund,Type_a,0-22,Male,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000994,Fort,Type_e,60_and_above,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000995,Khar,Type_c,22-60,Female,Steady_Jobs_or_School,0 cars,No,Middle_High_Income
++919820000996,Bandra,Type_c,22-60,Male,Steady_Jobs_or_School,0 cars,Yes,Low_Income
++919820000997,Dahisar,Type_a,0-22,Male,Unemployed_or_Retired,0 cars,Yes,Low_Income
++919820000998,Worli,Type_e,60_and_above,Female,Unemployed_or_Retired,1_or_more,No,Middle_High_Income
++919820000999,Mankhurd,Type_b,22-60,Female,Steady_Jobs_or_School,1_or_more,No,Middle_High_Income
