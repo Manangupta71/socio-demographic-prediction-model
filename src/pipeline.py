@@ -17,7 +17,7 @@ def extract_bandicoot_spatial_features(raw_cdr_df):
         0.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 0.0, 0.0,
         0.0, 0.0, 0.0,
-        0.0, 0.0
+        
     ]
     for col in ["data_volume_mb", "event_type", "duration_seconds"]:
         if col not in raw_cdr_df.columns:
@@ -55,28 +55,7 @@ def extract_bandicoot_spatial_features(raw_cdr_df):
     sms_to_voice_ratio = sms_count / (voice_count + 1)
     
     # Social-network features
-    if "opposite_party_number" in raw_cdr_df.columns:
-
-        unique_contacts = (
-        raw_cdr_df["opposite_party_number"]
-        .astype(str)
-        .nunique()
-    )
-
-        contact_probs = (
-        raw_cdr_df["opposite_party_number"]
-        .astype(str)
-        .value_counts(normalize=True)
-        .values
-    )
-
-        contact_entropy = -np.sum(
-        contact_probs * np.log2(contact_probs + 1e-9)
-    )
-
-    else:
-        unique_contacts = 0
-        contact_entropy = 0
+    
     
     active_events = raw_cdr_df["event_type"].isin(["voice_in", "voice_out", "sms_in", "sms_out", "data_session"]).sum()
     activity_ratio = active_events / len(raw_cdr_df) if len(raw_cdr_df) > 0 else 0.0
@@ -122,9 +101,52 @@ def extract_bandicoot_spatial_features(raw_cdr_df):
     active_days,
     hour_entropy,
 
-    unique_contacts,
-    contact_entropy
 ]
+    
+def extract_comm_features(comm_df):
+
+    if comm_df.empty:
+        return [0, 0.0, 0.5, 0.0, 0.0]
+
+    unique_contacts = comm_df["contact_id"].nunique()
+
+    probs = (
+        comm_df["contact_id"]
+        .value_counts(normalize=True)
+        .values
+    )
+
+    contact_entropy = -np.sum(
+        probs * np.log2(probs + 1e-9)
+    )
+
+    outgoing = (
+        comm_df["direction"] == "outgoing"
+    ).sum()
+
+    incoming = (
+        comm_df["direction"] == "incoming"
+    ).sum()
+
+    incoming_outgoing_ratio = (
+        incoming / (outgoing + 1)
+    )
+
+    avg_call_duration = (
+        comm_df["duration_sec"].mean()
+    )
+
+    avg_response_delay = (
+        comm_df["response_delay_min"].mean()
+    )
+
+    return [
+        unique_contacts,
+        contact_entropy,
+        incoming_outgoing_ratio,
+        avg_call_duration,
+        avg_response_delay
+    ]
 
 def build_colocation_graph(raw_log_files, max_files=None, top_k_edges_per_node=8):
     if max_files is not None:
@@ -225,7 +247,13 @@ def build_mobility_similarity_graph(features_df, k=8):
     "voice_activity_density",
     "sms_activity_density",
     "active_days",
-    "hour_entropy"
+    "hour_entropy",
+
+    "unique_contacts",
+    "contact_entropy",
+    "incoming_outgoing_ratio",
+    "avg_call_duration",
+    "avg_response_delay"
 ] 
     X =StandardScaler().fit_transform(features_df[feature_cols].values)
 
@@ -283,9 +311,22 @@ def run_feature_alignment_pipeline(use_graph_features=True, colocation_max_files
         extracted_records = []
         for file_path in raw_log_files:
             phone_num = os.path.basename(file_path).replace(".csv", "")
+
             df_log = pd.read_csv(file_path)
+
             metrics = extract_bandicoot_spatial_features(df_log)
-            extracted_records.append([phone_num] + metrics)
+
+            comm_file = f"raw_data/subscriber_comm/{phone_num}.csv"
+
+            if os.path.exists(comm_file):
+                df_comm = pd.read_csv(comm_file)
+                comm_metrics = extract_comm_features(df_comm)
+            else:
+                comm_metrics = [0, 0, 0, 0, 0]
+
+            extracted_records.append(
+                [phone_num] + metrics + comm_metrics
+    )
 
         feature_cols = [
     "phone_number",
@@ -307,7 +348,13 @@ def run_feature_alignment_pipeline(use_graph_features=True, colocation_max_files
     "voice_activity_density",
     "sms_activity_density",
     "active_days",
-    "hour_entropy"
+    "hour_entropy",
+
+    "unique_contacts",
+    "contact_entropy",
+    "incoming_outgoing_ratio",
+    "avg_call_duration",
+    "avg_response_delay"
 ]
         features_df = pd.DataFrame(extracted_records, columns=feature_cols)
         features_df.to_csv("raw_data/mumbai_phone_features.csv", index=False)

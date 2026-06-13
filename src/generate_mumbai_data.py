@@ -430,14 +430,37 @@ def generate_full_schema_mumbai_dataset(n_samples=1000, write_raw_logs=True, n_d
     feature_rows = []
     for i, phone in enumerate(phone_numbers):
         demo_row = demo_df.iloc[i]
-        cdr_logs = generate_cdr_logs(rng, phone, demo_row["residential_ward"], demo_row, n_days=n_days)
-        pings_df = cdr_logs["pings"]
-        if write_raw_logs:
-            pings_df.to_csv(f"raw_data/subscriber_logs/{phone}.csv", index=False)
-        feats = extract_bandicoot_spatial_features(pings_df)
-        feature_rows.append([phone] + feats)
+        cdr_logs = generate_cdr_logs(
+        rng,
+        phone,
+        demo_row["residential_ward"],
+        demo_row,
+        n_days=n_days
+)
 
-        if (i + 1) % 200 == 0:
+        pings_df = cdr_logs["pings"]
+        comm_df = cdr_logs["comm"]
+
+        if write_raw_logs:
+
+            os.makedirs("raw_data/subscriber_logs", exist_ok=True)
+            os.makedirs("raw_data/subscriber_comm", exist_ok=True)
+
+            pings_df.to_csv(
+                f"raw_data/subscriber_logs/{phone}.csv",
+                index=False
+           )
+
+            comm_df.to_csv(
+                f"raw_data/subscriber_comm/{phone}.csv",
+                index=False
+            )
+
+    feats = extract_bandicoot_spatial_features(pings_df)
+        
+    feature_rows.append([phone] + feats)
+
+    if (i + 1) % 200 == 0:
             print(f"  ...generated CDR logs for {i + 1}/{n_samples} subscribers")
 
     feature_cols = [
@@ -460,7 +483,9 @@ def generate_full_schema_mumbai_dataset(n_samples=1000, write_raw_logs=True, n_d
     "voice_activity_density",
     "sms_activity_density",
     "active_days",
-    "hour_entropy"
+    "hour_entropy",
+    "unique_contacts",
+    "contact_entropy",
 ]
     df_features = pd.DataFrame(feature_rows, columns=feature_cols)
 
